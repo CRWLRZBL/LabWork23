@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LabWorkLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:LabWorkLibrary.Maths">
+            <summary>
+            Предоставляет методы простых математических действий и площадь прямоугольника
+            </summary>
+        </member>
+        <member name="F:LabWorkLibrary.Maths.BINARY_FACTOR">
+            <summary>
+            2 в 10 степени
+            </summary>
+        </member>
+        <member name="M:LabWorkLibrary.Maths.GetSum(System.Double,System.Double)">
+            <summary>
+            Вычисляет сумму двух чисел
+            </summary>
+            <param name="x">Первое слагаемое</param>
+            <param name="y">Второе слагаемое</param>
+            <returns>Сумма</returns>
+        </member>
+        <member name="M:LabWorkLibrary.Maths.GetDifference(System.Double,System.Double)">
+            <summary>
+            Вычисляет разность двух чисел
+            </summary>
+            <param name="x">Уменьшаемое</param>
+            <param name="y">Вычитаемое</param>
+            <returns>Разность</returns>
+        </member>
+        <member name="M:LabWorkLibrary.Maths.GetMultiplication(System.Double,System.Double)">
+            <summary>
+            Вычисляет произведение двух чисел
+            </summary>
+            <param name="x">Первый множитель</param>
+            <param name="y">Второй множитель</param>
+            <returns>Произведение</returns>
+        </member>
+        <member name="M:LabWorkLibrary.Maths.GetDivision(System.Double,System.Double)">
+            <summary>
+            Вычисляет частное двух чисел
+            </summary>
+            <param name="x">Делимое</param>
+            <param name="y">Делитель</param>
+            <returns>Частное</returns>
+            <exception cref="T:System.ArgumentException">Вывод ошибки, при некоректных значениях</exception>
+        </member>
+        <member name="M:LabWorkLibrary.Maths.GetRectangleArea(System.Double,System.Double)">
+            <summary>
+            Вычисляет площадь прямоугольника
+            </summary>
+            <param name="width">Ширина</param>
+            <param name="height">Высота</param>
+            <returns>Площадь прямоугольника</returns>
+            <exception cref="T:System.ArgumentException">Вывод ошибки, при некоректных значениях</exception>
+        </member>
+    </members>
+</doc>
